@@ -13,10 +13,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2aewq42HV2UPxj0DRBtyvUAVgGR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,7 +54,7 @@
         <option name="PLATFORM" value="Win64" />
         <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\Aura\Aura.uproject&quot;" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\GameplayAbilitySystem_Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -59,7 +63,7 @@
       <configuration_3>
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura-Win64-DebugGame.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura-Win64-DebugGame.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -72,7 +76,7 @@
         <option name="PLATFORM" value="Win64" />
         <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\Aura\Aura.uproject&quot;" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\GameplayAbilitySystem_Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -81,7 +85,7 @@
       <configuration_5>
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -92,7 +96,7 @@
       <configuration_6>
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura-Win64-Shipping.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura-Win64-Shipping.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -114,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704692540084</updated>
       <workItem from="1704692542157" duration="382000" />
+      <workItem from="1704696009650" duration="88000" />
     </task>
     <servers />
   </component>
