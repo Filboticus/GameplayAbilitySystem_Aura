@@ -7,41 +7,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5899066-0a20-4a4c-b67f-a1c386a1586f" name="Changes" comment="" />
+    <list default="true" id="d5899066-0a20-4a4c-b67f-a1c386a1586f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/CT_Potion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraEffectActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraEffectActor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/include/ranges" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2aewq42HV2UPxj0DRBtyvUAVgGR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\phili\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\phili\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Aura" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Aura.uproject" />
@@ -50,7 +74,7 @@
         <option name="PLATFORM" value="Win64" />
         <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\Aura\Aura.uproject&quot;" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;C:\Unreal Projects\GameplayAbilitySystem_Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -59,7 +83,7 @@
       <configuration_3>
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura-Win64-DebugGame.exe" />
+        <option name="EXECUTABLE_PATH" value="C:\Unreal Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura-Win64-DebugGame.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -72,7 +96,7 @@
         <option name="PLATFORM" value="Win64" />
         <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal\Projects\Aura\Aura.uproject&quot;" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;C:\Unreal Projects\GameplayAbilitySystem_Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -81,7 +105,7 @@
       <configuration_5>
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura.exe" />
+        <option name="EXECUTABLE_PATH" value="C:\Unreal Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -92,7 +116,7 @@
       <configuration_6>
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="D:\Unreal\Projects\Aura\Binaries\Win64\Aura-Win64-Shipping.exe" />
+        <option name="EXECUTABLE_PATH" value="C:\Unreal Projects\GameplayAbilitySystem_Aura\Binaries\Win64\Aura-Win64-Shipping.exe" />
         <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
@@ -114,6 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704692540084</updated>
       <workItem from="1704692542157" duration="382000" />
+      <workItem from="1704732546420" duration="2119000" />
+      <workItem from="1704774656984" duration="118000" />
     </task>
     <servers />
   </component>
@@ -121,6 +147,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
