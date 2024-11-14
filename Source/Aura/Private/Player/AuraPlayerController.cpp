@@ -16,7 +16,6 @@
 AAuraPlayerController::AAuraPlayerController()
 {
 	bReplicates = true;
-
 	Spline = CreateDefaultSubobject<USplineComponent>("Spline");
 }
 
@@ -60,7 +59,6 @@ void AAuraPlayerController::BeginPlay()
 		Subsystem->AddMappingContext(AuraContext, 0);
 	}
 	
-	
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Default;
 
@@ -97,28 +95,25 @@ void AAuraPlayerController::Move(const FInputActionValue& InputActionValue)
 
 void AAuraPlayerController::CursorTrace()
 {
-	FHitResult CursorHit;
-	
 	GetHitResultUnderCursor(ECC_Visibility, false,CursorHit);
 	if(!CursorHit.bBlockingHit) return;
 
 	LastActor = ThisActor;
 	ThisActor = Cast<IEnemyInterface>(CursorHit.GetActor());
 
-	/**
-	 * Line Trace from cursor. There are several scenaries:
-	 * A. LastActor is null && ThisActor is null
-	 *		-Do Nothing
-	 * B. LastActor is null && ThisActor is valid
-	 *		-Highlight ThisActor
-	 * C. LastActor is valid && ThisActor is null
-	 *		-UnHighlight LastActor
-	 * D. Both Actors are valid, but LastActor != ThisActor
-	 *		-UnHighlight LastActor, and Highlight ThisActor
-	 * E. Both Actors are valid, and are the same Actor
-	 *		-Do Nothing
-	 */
-
+	if(LastActor != ThisActor)
+	{
+		if (LastActor)
+		{
+			LastActor->UnHighlightActor();
+		}
+		
+		if(ThisActor)
+		{
+			ThisActor->HighlightActor();
+		}
+	}
+	
 	if (LastActor == nullptr)
 	{
 		if (ThisActor != nullptr)
@@ -184,7 +179,7 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 	}
 	else
 	{
-		APawn* ControlledPawn = GetPawn();
+		const APawn* ControlledPawn = GetPawn();
 
 		if (FollowTime <= ShortPressedThreshold)
 		{
@@ -194,7 +189,6 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 				for (const FVector& PointLoc : NavPath->PathPoints)
 				{
 					Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
-					DrawDebugSphere(GetWorld(), PointLoc, 8.f, 8, FColor::Red, false, 3.f);
 				}
 				CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() - 1];
 				bAutoRunning = true;
@@ -225,11 +219,10 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 	else
 	{
 		FollowTime += GetWorld()->GetDeltaSeconds();
-
-		FHitResult Hit;
-		if(GetHitResultUnderCursor(ECC_Visibility, false, Hit))
+		
+		if(CursorHit.bBlockingHit)
 		{
-			CachedDestination = Hit.ImpactPoint;
+			CachedDestination = CursorHit.ImpactPoint;
 		}
 
 		if (APawn* ControlledPawn = GetPawn())
