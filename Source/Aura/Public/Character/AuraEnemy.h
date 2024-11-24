@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Character/AuraCharacterBase.h"
 #include "Interaction/EnemyInterface.h"
+#include "UI/WidgetController/OverlayWidgetController.h"
 #include "AuraEnemy.generated.h"
 
 class UWidgetComponent;
@@ -29,6 +30,13 @@ public:
 	virtual int32 GetPlayerLevel() override;
 
 	/** end Combat Interface **/
+
+	UPROPERTY(BlueprintAssignable)
+	FOnAttributeChangedSignature OnHeathChanged;
+
+	UPROPERTY(BlueprintAssignable)
+	FOnAttributeChangedSignature OnMaxHeathChanged;
+	
 
 protected:
 	virtual void BeginPlay() override;
