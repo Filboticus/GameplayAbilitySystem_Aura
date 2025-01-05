@@ -64,6 +64,9 @@ FGameplayTag Damage;
  
 // Effects
 FGameplayTag Effects_HitReact;
+
+ // Abilities
+ FGameplayTag Abilities_Attack;
  
 private:
  static FAuraGameplayTags GameplayTags;
