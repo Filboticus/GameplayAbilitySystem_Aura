@@ -37,11 +37,13 @@ public:
 
 	virtual UAnimMontage* GetHitReactMontage_Implementation() override;
 	
-	virtual FVector GetCombatSocketLocation_Implementation() override;
+	virtual FVector GetCombatSocketLocation_Implementation(const FGameplayTag& MontageTag) override;
 
 	virtual bool IsDead_Implementation() const override;
 
 	virtual AActor* GetAvatar_Implementation() override;
+
+	virtual TArray<FTaggedMontage> GetAttackMontages_Implementation() override;
 	/*** end Combat Interface ***/
 
 protected:
@@ -51,11 +53,18 @@ protected:
 	virtual void BeginPlay() override;
 
 	// Weapon
-	UPROPERTY(EditAnywhere, Category = "Combat")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	TObjectPtr<USkeletalMeshComponent> Weapon;
 
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	FName WeaponTipSocketName;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	FName LeftHandSocketName;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	FName RightHandSocketName;
+	
 
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
@@ -95,6 +104,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TObjectPtr<UMaterialInstance> WeaponDissolveMaterialInstance;
+
+	UPROPERTY(EditAnywhere, Category= "Combat")
+	TArray<FTaggedMontage> AttackMontages;
 	
 private:
 
